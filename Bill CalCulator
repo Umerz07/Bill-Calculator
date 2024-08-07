@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+     int num;
+     int unit;
+     int unit_1=10;
+     int unit_2=15;
+     int totalbill;
+     
+     
+     cout<<"Enter the Unit;";
+     cin>>unit;
+     
+     if(unit<=100)
+     {
+         cout<<"Total bill is :"<<unit*unit_1<<endl;
+     }
+     else if (unit>100)
+     {
+         cout<<"Your bill is :"<<unit*unit_2<<endl;
+     }
+     else 
+     {
+         cout<<"You have entered wrong";
+     }
+     
+     return 0;
+}
